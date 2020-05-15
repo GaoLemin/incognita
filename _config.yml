@@ -3,13 +3,15 @@
 #
 
 # Name of your site (displayed in the header)
-name: Lemin Gao
+name: Lemin Gao Blog
 
 # Short bio or description (displayed in the header)
 description: Student; Linguistics, philosophy, logic and cognitive science.
 
 # URL of your avatar or profile pic (you could use your GitHub profile pic)
-avatar: https://avatars2.githubusercontent.com/u/34760674?s=400&u=87edc54dd48a3810e62bfa70c88e4819edda48c4&v=4
+header-img: https://avatars2.githubusercontent.com/u/34760674?s=400&u=87edc54dd48a3810e62bfa70c88e4819edda48c4&v=4
+email: ambergaofortis@gmail.com
+url: "https://gaolemin.github.io/incognita/"   
 
 #
 # Flags below are optional
@@ -21,9 +23,7 @@ footer-links:
   github: GaoLemin/lemingao.github.io
   instagram: ambernildesperandum
   rss: # just type anything here for a working RSS icon
-  twitter: vasiliafortis
   stackoverflow: # your stackoverflow profile, e.g. "users/50476/bart-kiers"
-  youtube: # channel/<your_long_string> or user/<user-name>
   googleplus: # anything in your profile username that comes after plus.google.com/
 
 
@@ -33,6 +33,11 @@ disqus:
 
 # Enter your Google Analytics web tracking code (e.g. UA-2110908-2) to activate tracking
 google_analytics:
+
+sidebar: true                           # whether or not using Sidebar.
+sidebar-about-description: "Explorant terra incognita. <br> 向往未知"
+sidebar-avatar: https://avatars2.githubusercontent.com/u/34760674?s=400&u=87edc54dd48a3810e62bfa70c88e4819edda48c4&v=4      # use absolute URL, seeing it's used in both `/` and `/about/`
+
 
 # Your website URL (e.g. http://barryclark.github.io or http://www.barryclark.co)
 # Used for Sitemap.xml and your RSS feed
